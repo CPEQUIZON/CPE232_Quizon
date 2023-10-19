@@ -1,4 +1,5 @@
-192.168.56.102	server1
-192.168.56.101	server2
-192.168.56.109	workstation
-192.168.56.108	CentOS
+192.168.56.102	ansible_connection=local
+
+192.168.56.101	ansible_connection=local
+
+192.168.56.108	ansible_connection=ssh
